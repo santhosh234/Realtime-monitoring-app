@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-app
+spec:
+  imagePullSecrets:
+  - name: my-docker-secret
+  containers:
+  - name: monitoring-app
+    image: santhoshh27/flaskk-app:v1.0
+    ports:
+    - containerPort: 5000 
