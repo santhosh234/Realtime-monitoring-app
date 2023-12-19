@@ -1,0 +1,9 @@
+ Flask==2.2.3 #A lightweight web framework for building web applications in Python.
+ MarkupSafe==2.1.2 #A library for escaping/unescaping HTML, XML, and other markup languages.
+ Werkzeug==2.2.3 #A library that provides low-level utilities for building web applications.
+ itsdangerous==2.1.2 #A library used for generating and verifying secure tokens and data.
+ psutil==5.9.5 # used for system monitoring and memory monitoring
+ plotly==5.5.0 #A library for creating interactive, browser-based graphs and visualizations.
+ tenacity==8.0.1 #A library for adding retry logic to your code, especially when interacting with external services.
+ boto3==1.9.148 # The Amazon Web Services (AWS) SDK for Python, used to interact with various AWS services.
+ kubernetes==10.0.1 #A Python client library for interacting with Kubernetes clusters and resources.
